@@ -26,11 +26,11 @@ console.timeEnd("Mining Block 2 Time");
 
 console.log("-".repeat(repeat_lines))
 console.log('\nMining Block 3...');
-console.time("Mining Block 3 Time");
-console.log('\nMiner of Block 2 is been rewarded...');
-console.timeEnd("Mining Block 3 Time");
-blockchain.generateBlock(Participants.nodes()[1][0], difficulty);
 
+console.log('\nMiner of Block 2 is been rewarded...');
+console.time("Mining Block 3 Time");
+blockchain.generateBlock(Participants.nodes()[1][0], difficulty);
+console.timeEnd("Mining Block 3 Time");
 /**
  * Validation check of the blockchain
  */

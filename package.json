@@ -6,7 +6,6 @@
   "dependencies": {
     "crypto-js": "^4.2.0"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "node index.js"
   },
